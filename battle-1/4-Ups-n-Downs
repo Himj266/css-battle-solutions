@@ -1,0 +1,27 @@
+ <div class="box reverse">
+  </div>
+  <div class="box">
+  </div>
+ <div class="box reverse">
+  </div>
+<style>
+  body{
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box{
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+    transform: translate(0,-50%);
+  }
+  .reverse{
+    transform: rotate(180deg)  translate(0,-50%);
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+</style>
